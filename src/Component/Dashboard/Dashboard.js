@@ -36,12 +36,15 @@ const Dashboard = () => {
                     <div className='cross '>{"X"}</div>
                     <div className='cross edit'>{"✍️"}</div>
                 </div>
-                <div>
-                    <div>{"1"}</div>
-                    <div>{"2"}</div>
-                    <div>{"3"}</div>
-                    <div>{">>"}</div>
+                <div className='pagination'>
+                    <div className='page1'>{"1"}</div>
+                    <div className='page2'>{"2"}</div>
+                    <div className='page3'>{"3"}</div>
+                    <div className='page4'>{">>"}</div>
 
+                </div>
+                <div className='addSection'>
+                    <input placeholder='Add new task' className='addinput' /> <div className='addSymbol'>{"+"}</div>
                 </div>
             </section>
 

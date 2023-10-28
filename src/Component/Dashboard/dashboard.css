@@ -30,7 +30,8 @@ label {
 }
 header {
   text-align: center;
-  padding: 5rem 30rem;
+  padding: 5rem 20rem;
+  margin-left: -30rem;
   box-sizing: border-box;
 }
 .checkboxParent {
@@ -91,4 +92,57 @@ span {
 }
 .taskDetails *:hover {
   color: black;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page1 {
+  height: 2rem;
+  width: 2rem;
+  margin: 5px;
+  padding: 2px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+}
+.page2,
+.page3 {
+  height: 2rem;
+  width: 2rem;
+  margin: 5px;
+  padding: 2px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+}
+.page4 {
+  height: 2rem;
+  width: 2rem;
+  margin: 5px;
+  padding: 2px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  background-color: black;
+}
+.addinput {
+  width: 27rem;
+  margin: 10px;
+}
+.addSymbol {
+  color: white;
+  border: 5px;
+  width: 2rem;
+  margin-right: -120px;
+  height: 2rem;
+  background-color: grey;
+}
+.addSection {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
 }

@@ -49,7 +49,7 @@ const Signup = () => {
                 </form>
             </div>
             <NavLink to="/dashboard">
-                <button style={{ color: "white" }} ><h1>Go to dashboard</h1></button>
+                <button style={{ color: "black" }} className='dash' >Go to dashboard</button>
 
             </NavLink>
         </div>
