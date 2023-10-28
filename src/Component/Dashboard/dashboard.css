@@ -1,0 +1,94 @@
+.dashbordParent {
+  width: 98vw;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.checkboxParent * {
+  color: white;
+
+  font-size: 3rem;
+}
+label {
+  color: white;
+  padding-bottom: 25px;
+}
+.search {
+  width: 30rem;
+  margin-right: -17rem;
+  background-color: rgb(171, 162, 162);
+}
+#checkbox {
+  height: 4rem;
+  width: 4rem;
+
+  text-align: start;
+  background-color: greenyellow;
+}
+header {
+  text-align: center;
+  padding: 5rem 30rem;
+  box-sizing: border-box;
+}
+.checkboxParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.taskParent:active {
+}
+.taskDetails {
+  width: 40rem;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  height: 8vh;
+  border-radius: 10px;
+  text-align: left;
+  background-color: rgb(186, 187, 188);
+}
+.taskDetails:hover {
+  background-color: aliceblue;
+}
+.taskDetailsParents {
+}
+section {
+  text-align: center;
+  padding: 0.5rem 25rem;
+  box-sizing: border-box;
+}
+.cross {
+  height: 2rem;
+  width: 2rem;
+  margin: 5px;
+  padding: 2px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+}
+.taskParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+span {
+  color: white;
+  line-height: 20px;
+}
+.title {
+  font-size: 1.2rem;
+  padding: 2px;
+}
+.edit {
+  background-color: rgb(159, 161, 155);
+}
+.edit:hover {
+  background-color: greenyellow;
+}
+.taskDetails *:hover {
+  color: black;
+}
